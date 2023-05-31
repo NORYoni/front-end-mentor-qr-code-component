@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+   background-color:  hsl(0, 0%, 85%);
+}
+.image{
+  
+    width: 295px;
+    
+    border-radius: 5%;
+   
+
+}
+
+.image2{
+    padding: 5% 0% 0% 0%; 
+}
+
+.code{
+    height: 550px;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    border-radius: 5%;
+    display: block;
+ background-color: hsl(212, 45%, 79%);
+ text-align: center;
+   
+}
+h2{
+    padding: 3% 10% 2% 10% ;
+    font-family: 'Outfit' ;
+    color: hsl(218, 44%, 22%);
+    
+}
+
+p{
+    font-family: 'Outfit' ;
+    padding: 0% 10% 2% 10% ;
+    align-items: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution{
+    font-size: 15px;
+    font-family: 'Outfit' ;
+    padding: 5% 10% 2% 10% ;
+}
